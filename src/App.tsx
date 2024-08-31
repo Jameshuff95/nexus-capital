@@ -1,5 +1,11 @@
+import Nav from "./sections/Nav";
+
 function App() {
-  return <h1 className="bg-black text-white">Hello World</h1>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
 export default App;
