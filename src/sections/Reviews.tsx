@@ -10,19 +10,19 @@ function Reviews() {
       src: Elena,
       text: '"Using Nexus has streamlined my financial transactions like never before. Highly recommended for anyone looking to simplify their finances!"',
       name: "Elena Rodriguez",
-      location: "Spain",
+      country: "Spain",
     },
     {
       src: Haruka,
       text: '"Nexus has helped me send and receive money with little to no complications. It´s what everyone who wants to be on top of their money needs!"',
       name: "Haruka Sato",
-      location: "Japan",
+      country: "Japan",
     },
     {
       src: Thomas,
       text: '"Nexus has been a game changer for my daily financial dealings. It allows for quick and secure money transfers, which saves me a lot of time and effort."',
       name: "Tomas Morgan",
-      location: "USA",
+      country: "USA",
     },
   ];
 
