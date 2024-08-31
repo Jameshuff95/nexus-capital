@@ -1,5 +1,5 @@
 import NexusLight from "../assets/logos/kobodrop_logo_bright.png";
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
 import Facebook from "../assets/logos/icons8-facebook.svg";
 import Linkedin from "../assets/logos/icons8-linkedin.svg";
@@ -37,7 +37,7 @@ function Footer() {
           </div>
           <div className="w-fit">
             <h2>Get the app</h2>
-            <StoreLinks />
+            <StoreLinks type={BtnTypes.Variant} />
           </div>
         </div>
         <div className="mt-14 flex justify-between border-t-2 border-t-gray-700 pt-10">
